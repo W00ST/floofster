@@ -20,7 +20,7 @@
   "scripts": {
     "client": "./node_modules/.bin/react-scripts start",
     "server": "./node_modules/.bin/nodemon server",
-    "build": "./build.js",
+    "build": "sh ./build.sh",
     "test": "./node_modules/.bin/react-scripts test",
     "eject": "./node_modules/.bin/react-scripts eject"
   },

@@ -1,0 +1,5 @@
+eval 'rm -r server/build'
+eval './node_modules/.bin/react-scripts build'
+eval 'cp -r build server/build'
+eval 'rm -r build'
+echo 'build has been created and moved to server/build'

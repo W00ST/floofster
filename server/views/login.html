@@ -3,9 +3,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Login</title>
+  <link rel="stylesheet" href="login.css">
+  <title>Join</title>
 </head>
 <body>
-  <h1>Login</h1>
+  <h1>Join</h1>
+  <form action="/register" method="POST" class="register">
+    <div class="register">
+      <label for="name">Name/Owner:</label>
+      <input type="name" name="name" id="name">
+    </div>
+    <div class="register">
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email">
+    </div>
+    <div class="register">
+      <label for="password">Password:</label>
+      <input type="password" name="password" id="password">
+    </div>
+    <div class="register"> 
+      <input type="submit" value="Join!">
+    </div>  
+  </form>
+  <div class="google">Google</div>
+  <div class="google">Facebook</div>
 </body>
 </html>
